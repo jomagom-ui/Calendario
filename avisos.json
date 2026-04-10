@@ -8,118 +8,13 @@
     "Tipo5": "VALORIZA",
     "Tipo6": "LUN-SAB 6-0"
   },
-  "mensajes_globales": [
-    {
-      "id": "global-plantilla-001",
-      "titulo": "Aviso general",
-      "texto": "Mensaje global para todos los trabajadores.",
-      "activo": false,
-      "obligatorio": false,
-      "prioridad": 50,
-      "fecha_inicio": "01/01/2026",
-      "fecha_fin": "31/12/2026",
-      "icono": "🔔",
-      "boton_aceptar": "Aceptar",
-      "boton_cancelar": "Más tarde",
-      "mostrar_cancelar": false
-    }
-  ],
+  "mensajes_globales": [],
   "mensajes_por_empresa": {
-    "Tipo1": [
-      {
-        "id": "fcc-plantilla-001",
-        "titulo": "FCC",
-        "texto": "Mensaje para trabajadores de FCC.",
-        "activo": false,
-        "obligatorio": false,
-        "prioridad": 10,
-        "fecha_inicio": "01/01/2026",
-        "fecha_fin": "31/12/2026",
-        "icono": "🔔",
-        "boton_aceptar": "Aceptar",
-        "boton_cancelar": "Más tarde",
-        "mostrar_cancelar": false
-      }
-    ],
-    "Tipo2": [
-      {
-        "id": "urbaser-plantilla-001",
-        "titulo": "URBASER",
-        "texto": "Mensaje para trabajadores de URBASER.",
-        "activo": false,
-        "obligatorio": false,
-        "prioridad": 10,
-        "fecha_inicio": "01/01/2026",
-        "fecha_fin": "31/12/2026",
-        "icono": "🔔",
-        "boton_aceptar": "Aceptar",
-        "boton_cancelar": "Más tarde",
-        "mostrar_cancelar": false
-      }
-    ],
-    "Tipo3": [
-      {
-        "id": "mixto-plantilla-001",
-        "titulo": "MIXTO",
-        "texto": "Mensaje para trabajadores de MIXTO.",
-        "activo": false,
-        "obligatorio": false,
-        "prioridad": 10,
-        "fecha_inicio": "01/01/2026",
-        "fecha_fin": "31/12/2026",
-        "icono": "🔔",
-        "boton_aceptar": "Aceptar",
-        "boton_cancelar": "Más tarde",
-        "mostrar_cancelar": false
-      }
-    ],
-    "Tipo4": [
-      {
-        "id": "cld-plantilla-001",
-        "titulo": "CLD",
-        "texto": "Mensaje para trabajadores de CLD.",
-        "activo": false,
-        "obligatorio": false,
-        "prioridad": 10,
-        "fecha_inicio": "01/01/2026",
-        "fecha_fin": "31/12/2026",
-        "icono": "🔔",
-        "boton_aceptar": "Aceptar",
-        "boton_cancelar": "Más tarde",
-        "mostrar_cancelar": false
-      }
-    ],
-    "Tipo5": [
-      {
-        "id": "valoriza-plantilla-001",
-        "titulo": "VALORIZA",
-        "texto": "Mensaje para trabajadores de VALORIZA.",
-        "activo": false,
-        "obligatorio": false,
-        "prioridad": 10,
-        "fecha_inicio": "01/01/2026",
-        "fecha_fin": "31/12/2026",
-        "icono": "🔔",
-        "boton_aceptar": "Aceptar",
-        "boton_cancelar": "Más tarde",
-        "mostrar_cancelar": false
-      }
-    ],
-    "Tipo6": [
-      {
-        "id": "lunsab-plantilla-001",
-        "titulo": "LUN-SAB 6-0",
-        "texto": "Mensaje para trabajadores de LUN-SAB 6-0.",
-        "activo": false,
-        "obligatorio": false,
-        "prioridad": 10,
-        "fecha_inicio": "01/01/2026",
-        "fecha_fin": "31/12/2026",
-        "icono": "🔔",
-        "boton_aceptar": "Aceptar",
-        "boton_cancelar": "Más tarde",
-        "mostrar_cancelar": false
-      }
-    ]
+    "Tipo1": [],
+    "Tipo2": [],
+    "Tipo3": [],
+    "Tipo4": [],
+    "Tipo5": [],
+    "Tipo6": []
   }
 }
