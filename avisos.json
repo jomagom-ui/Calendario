@@ -9,8 +9,8 @@
         "activo": true,
         "obligatorio": true,
         "prioridad": 100,
-        "fecha_inicio": "2026-04-10",
-        "fecha_fin": "2026-04-30",
+        "fecha_inicio": "10/04/2026",
+        "fecha_fin": "30/04/2026",
         "icono": "⚠",
         "boton_aceptar": "Aceptar",
         "mostrar_cancelar": false
