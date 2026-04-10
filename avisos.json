@@ -8,13 +8,28 @@
     "Tipo5": "VALORIZA",
     "Tipo6": "LUN-SAB 6-0"
   },
-  "mensajes_globales": [],
+  "mensajes_globales": [
+    {
+      "id": "global-plantilla-001",
+      "titulo": "Aviso general",
+      "texto": "Mensaje global para todos los trabajadores.",
+      "activo": false,
+      "obligatorio": false,
+      "prioridad": 50,
+      "fecha_inicio": "01/01/2026",
+      "fecha_fin": "31/12/2026",
+      "icono": "🔔",
+      "boton_aceptar": "Aceptar",
+      "boton_cancelar": "Más tarde",
+      "mostrar_cancelar": false
+    }
+  ],
   "mensajes_por_empresa": {
     "Tipo1": [
       {
-        "id": "fcc-msg-001",
+        "id": "fcc-plantilla-001",
         "titulo": "FCC",
-        "texto": "Mensaje de prueba para FCC.",
+        "texto": "Mensaje para trabajadores de FCC.",
         "activo": false,
         "obligatorio": false,
         "prioridad": 10,
@@ -28,9 +43,9 @@
     ],
     "Tipo2": [
       {
-        "id": "urbaser-msg-001",
+        "id": "urbaser-plantilla-001",
         "titulo": "URBASER",
-        "texto": "Mensaje de prueba para URBASER.",
+        "texto": "Mensaje para trabajadores de URBASER.",
         "activo": false,
         "obligatorio": false,
         "prioridad": 10,
@@ -44,9 +59,9 @@
     ],
     "Tipo3": [
       {
-        "id": "mixto-msg-001",
+        "id": "mixto-plantilla-001",
         "titulo": "MIXTO",
-        "texto": "Mensaje de prueba para MIXTO.",
+        "texto": "Mensaje para trabajadores de MIXTO.",
         "activo": false,
         "obligatorio": false,
         "prioridad": 10,
@@ -60,9 +75,9 @@
     ],
     "Tipo4": [
       {
-        "id": "cld-msg-001",
+        "id": "cld-plantilla-001",
         "titulo": "CLD",
-        "texto": "Mensaje de prueba para CLD.",
+        "texto": "Mensaje para trabajadores de CLD.",
         "activo": false,
         "obligatorio": false,
         "prioridad": 10,
@@ -76,9 +91,9 @@
     ],
     "Tipo5": [
       {
-        "id": "valoriza-msg-001",
+        "id": "valoriza-plantilla-001",
         "titulo": "VALORIZA",
-        "texto": "Mensaje de prueba para VALORIZA.",
+        "texto": "Mensaje para trabajadores de VALORIZA.",
         "activo": false,
         "obligatorio": false,
         "prioridad": 10,
@@ -92,9 +107,9 @@
     ],
     "Tipo6": [
       {
-        "id": "lunsab-msg-001",
+        "id": "lunsab-plantilla-001",
         "titulo": "LUN-SAB 6-0",
-        "texto": "Mensaje de prueba para LUN-SAB 6-0.",
+        "texto": "Mensaje para trabajadores de LUN-SAB 6-0.",
         "activo": false,
         "obligatorio": false,
         "prioridad": 10,
@@ -106,12 +121,5 @@
         "mostrar_cancelar": false
       }
     ]
-  },
-  "mensaje_general": {
-    "id": "legacy-msg-001",
-    "titulo": "Aviso",
-    "texto": "Mensaje de compatibilidad desactivado.",
-    "obligatorio": false,
-    "activo": false
   }
 }
