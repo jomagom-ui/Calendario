@@ -1,32 +1,76 @@
 {
   "version": 2,
-  "mensajes_por_empresa": {
-    "Tipo1": [
-      {
-        "id": "fcc-urgente-1",
-        "titulo": "FCC",
-        "texto": "Mensaje urgente",
-        "activo": true,
-        "obligatorio": true,
-        "prioridad": 100,
-        "fecha_inicio": "10/04/2026",
-        "fecha_fin": "30/04/2026",
-        "icono": "⚠",
-        "boton_aceptar": "Aceptar",
-        "mostrar_cancelar": false
-      }
-    ]
+  "_referencia_tipos": {
+    "Tipo1": "FCC",
+    "Tipo2": "URBASER",
+    "Tipo3": "MIXTO",
+    "Tipo4": "CLD",
+    "Tipo5": "VALORIZA",
+    "Tipo6": "LUN-SAB 6-0"
   },
+  "ultimo_anio_disponible": 2028,
   "mensajes_globales": [
     {
-      "id": "global-1",
+      "id": "global-2026-abril-01",
       "titulo": "Aviso general",
-      "texto": "Texto para todos",
+      "texto": "Recuerda actualizar la app solo desde los canales oficiales.",
       "activo": true,
       "obligatorio": false,
       "prioridad": 10,
-      "fecha_inicio": "01/04/2026",
-      "fecha_fin": "30/04/2026"
+      "fecha_inicio": "10/04/2026",
+      "fecha_fin": "30/04/2026",
+      "icono": "🔔",
+      "boton_aceptar": "Aceptar",
+      "boton_cancelar": "Más tarde",
+      "mostrar_cancelar": false
     }
-  ]
+  ],
+  "mensajes_por_empresa": {
+    "Tipo1": [
+      {
+        "id": "fcc-2028-disponible-01",
+        "titulo": "FCC",
+        "texto": "Ya puedes descargar el año 2028 para FCC.",
+        "activo": true,
+        "obligatorio": false,
+        "prioridad": 100,
+        "fecha_inicio": "10/04/2026",
+        "fecha_fin": "31/12/2026",
+        "icono": "⬇",
+        "accion": "descargar",
+        "ano": "2028",
+        "boton_aceptar": "Descargar",
+        "boton_cancelar": "Más tarde",
+        "mostrar_cancelar": true
+      }
+    ],
+    "Tipo2": [
+      {
+        "id": "urb-aviso-2026-01",
+        "titulo": "URBASER",
+        "texto": "Este mes se revisan cambios de turnos en URBASER.",
+        "activo": false,
+        "obligatorio": false,
+        "prioridad": 50,
+        "fecha_inicio": "01/05/2026",
+        "fecha_fin": "31/05/2026",
+        "icono": "📅",
+        "boton_aceptar": "Aceptar",
+        "boton_cancelar": "Más tarde",
+        "mostrar_cancelar": false
+      }
+    ],
+    "Tipo3": [],
+    "Tipo4": [],
+    "Tipo5": [],
+    "Tipo6": []
+  },
+  "mensaje_general": {
+    "id": "legacy-msg-01",
+    "titulo": "Aviso",
+    "texto": "Mensaje de compatibilidad con versiones antiguas.",
+    "obligatorio": false,
+    "activo": false
+  }
 }
+
