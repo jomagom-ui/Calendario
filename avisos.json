@@ -1,11 +1,32 @@
 {
-  "version": 1,
-  "ultimo_anio_disponible": 2028,
-  "mensaje_general": {
-    "id": "msg-2028-01",
-    "titulo": "Aviso",
-    "texto": "Ya está disponible la descarga del año 2028.",
-    "obligatorio": false,
-    "activo": true
-  }
+  "version": 2,
+  "mensajes_por_empresa": {
+    "Tipo1": [
+      {
+        "id": "fcc-urgente-1",
+        "titulo": "FCC",
+        "texto": "Mensaje urgente",
+        "activo": true,
+        "obligatorio": true,
+        "prioridad": 100,
+        "fecha_inicio": "2026-04-10",
+        "fecha_fin": "2026-04-30",
+        "icono": "⚠",
+        "boton_aceptar": "Aceptar",
+        "mostrar_cancelar": false
+      }
+    ]
+  },
+  "mensajes_globales": [
+    {
+      "id": "global-1",
+      "titulo": "Aviso general",
+      "texto": "Texto para todos",
+      "activo": true,
+      "obligatorio": false,
+      "prioridad": 10,
+      "fecha_inicio": "01/04/2026",
+      "fecha_fin": "30/04/2026"
+    }
+  ]
 }
