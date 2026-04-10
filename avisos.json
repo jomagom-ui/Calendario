@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "ultimo_anio_disponible": 2028,
+  "mensaje_general": {
+    "id": "msg-2028-01",
+    "titulo": "Aviso",
+    "texto": "Ya está disponible la descarga del año 2028.",
+    "obligatorio": false,
+    "activo": true
+  }
+}
