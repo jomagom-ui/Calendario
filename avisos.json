@@ -8,69 +8,110 @@
     "Tipo5": "VALORIZA",
     "Tipo6": "LUN-SAB 6-0"
   },
-  "ultimo_anio_disponible": 2028,
-  "mensajes_globales": [
-    {
-      "id": "global-2026-abril-01",
-      "titulo": "Aviso general",
-      "texto": "Recuerda actualizar la app solo desde los canales oficiales.",
-      "activo": true,
-      "obligatorio": false,
-      "prioridad": 10,
-      "fecha_inicio": "10/04/2026",
-      "fecha_fin": "30/04/2026",
-      "icono": "🔔",
-      "boton_aceptar": "Aceptar",
-      "boton_cancelar": "Más tarde",
-      "mostrar_cancelar": false
-    }
-  ],
+  "mensajes_globales": [],
   "mensajes_por_empresa": {
     "Tipo1": [
       {
-        "id": "fcc-2028-disponible-01",
+        "id": "fcc-msg-001",
         "titulo": "FCC",
-        "texto": "Ya puedes descargar el año 2028 para FCC.",
-        "activo": true,
-        "obligatorio": false,
-        "prioridad": 100,
-        "fecha_inicio": "10/04/2026",
-        "fecha_fin": "31/12/2026",
-        "icono": "⬇",
-        "accion": "descargar",
-        "ano": "2028",
-        "boton_aceptar": "Descargar",
-        "boton_cancelar": "Más tarde",
-        "mostrar_cancelar": true
-      }
-    ],
-    "Tipo2": [
-      {
-        "id": "urb-aviso-2026-01",
-        "titulo": "URBASER",
-        "texto": "Este mes se revisan cambios de turnos en URBASER.",
+        "texto": "Mensaje de prueba para FCC.",
         "activo": false,
         "obligatorio": false,
-        "prioridad": 50,
-        "fecha_inicio": "01/05/2026",
-        "fecha_fin": "31/05/2026",
-        "icono": "📅",
+        "prioridad": 10,
+        "fecha_inicio": "01/01/2026",
+        "fecha_fin": "31/12/2026",
+        "icono": "🔔",
         "boton_aceptar": "Aceptar",
         "boton_cancelar": "Más tarde",
         "mostrar_cancelar": false
       }
     ],
-    "Tipo3": [],
-    "Tipo4": [],
-    "Tipo5": [],
-    "Tipo6": []
+    "Tipo2": [
+      {
+        "id": "urbaser-msg-001",
+        "titulo": "URBASER",
+        "texto": "Mensaje de prueba para URBASER.",
+        "activo": false,
+        "obligatorio": false,
+        "prioridad": 10,
+        "fecha_inicio": "01/01/2026",
+        "fecha_fin": "31/12/2026",
+        "icono": "🔔",
+        "boton_aceptar": "Aceptar",
+        "boton_cancelar": "Más tarde",
+        "mostrar_cancelar": false
+      }
+    ],
+    "Tipo3": [
+      {
+        "id": "mixto-msg-001",
+        "titulo": "MIXTO",
+        "texto": "Mensaje de prueba para MIXTO.",
+        "activo": false,
+        "obligatorio": false,
+        "prioridad": 10,
+        "fecha_inicio": "01/01/2026",
+        "fecha_fin": "31/12/2026",
+        "icono": "🔔",
+        "boton_aceptar": "Aceptar",
+        "boton_cancelar": "Más tarde",
+        "mostrar_cancelar": false
+      }
+    ],
+    "Tipo4": [
+      {
+        "id": "cld-msg-001",
+        "titulo": "CLD",
+        "texto": "Mensaje de prueba para CLD.",
+        "activo": false,
+        "obligatorio": false,
+        "prioridad": 10,
+        "fecha_inicio": "01/01/2026",
+        "fecha_fin": "31/12/2026",
+        "icono": "🔔",
+        "boton_aceptar": "Aceptar",
+        "boton_cancelar": "Más tarde",
+        "mostrar_cancelar": false
+      }
+    ],
+    "Tipo5": [
+      {
+        "id": "valoriza-msg-001",
+        "titulo": "VALORIZA",
+        "texto": "Mensaje de prueba para VALORIZA.",
+        "activo": false,
+        "obligatorio": false,
+        "prioridad": 10,
+        "fecha_inicio": "01/01/2026",
+        "fecha_fin": "31/12/2026",
+        "icono": "🔔",
+        "boton_aceptar": "Aceptar",
+        "boton_cancelar": "Más tarde",
+        "mostrar_cancelar": false
+      }
+    ],
+    "Tipo6": [
+      {
+        "id": "lunsab-msg-001",
+        "titulo": "LUN-SAB 6-0",
+        "texto": "Mensaje de prueba para LUN-SAB 6-0.",
+        "activo": false,
+        "obligatorio": false,
+        "prioridad": 10,
+        "fecha_inicio": "01/01/2026",
+        "fecha_fin": "31/12/2026",
+        "icono": "🔔",
+        "boton_aceptar": "Aceptar",
+        "boton_cancelar": "Más tarde",
+        "mostrar_cancelar": false
+      }
+    ]
   },
   "mensaje_general": {
-    "id": "legacy-msg-01",
+    "id": "legacy-msg-001",
     "titulo": "Aviso",
-    "texto": "Mensaje de compatibilidad con versiones antiguas.",
+    "texto": "Mensaje de compatibilidad desactivado.",
     "obligatorio": false,
     "activo": false
   }
 }
-
