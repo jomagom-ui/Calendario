@@ -8,24 +8,7 @@
     "Tipo5": "VALORIZA",
     "Tipo6": "LUN-SAB 6-0"
   },
-  "mensajes_globales": [
-    {
-      "id": "global-20260411-130605026",
-      "titulo": "GLOBAL",
-      "texto": "Escribe aqui el mensaje.",
-      "activo": true,
-      "obligatorio": true,
-      "prioridad": 10,
-      "fecha_inicio": "11\/04\/2026",
-      "fecha_fin": "18\/04\/2026",
-      "icono": "",
-      "boton_aceptar": "Aceptar",
-      "boton_cancelar": "Mas tarde",
-      "mostrar_cancelar": false,
-      "accion": "",
-      "ano": ""
-    }
-  ],
+  "mensajes_globales": [],
   "mensajes_por_empresa": {
     "Tipo1": [],
     "Tipo2": [],
