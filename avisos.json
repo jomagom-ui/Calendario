@@ -10,7 +10,7 @@
   },
   "mensajes_globales": [
     {
-      "id": "global-msg-1",
+      "id": "global-msg-2",
       "titulo": "GLOBAL",
       "texto": "Jose Antonio Martinez",
       "activo": true,
@@ -18,7 +18,7 @@
       "prioridad": 10,
       "fecha_inicio": "11\/04\/2026",
       "fecha_fin": "18\/04\/2026",
-      "icono": "📢",
+      "icono": "🛠",
       "boton_aceptar": "Aceptar",
       "boton_cancelar": "Mas tarde",
       "mostrar_cancelar": false,
