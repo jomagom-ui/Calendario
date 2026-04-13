@@ -25,7 +25,7 @@
             {
               "type": "heading",
               "text": "Permiso por Matrimonio o Pareja de Hecho",
-              "style": { "size": 22, "color": "#FFFFFF", "weight": "bold", "align": "center" }
+              "style": { "size": 22, "color": "#FFFFFF", "weight": "bold", "align": "left" }
             },
             {
               "type": "paragraph",
