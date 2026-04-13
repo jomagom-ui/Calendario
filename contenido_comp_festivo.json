@@ -1,0 +1,21 @@
+﻿{
+  "schema_version": 2,
+  "content_version": "2026.04.13.100",
+  "updated_at_utc": "2026-04-13T18:45:00Z",
+  "default_lang": "es",
+  "section_key": "comp_festivo",
+  "section": {
+    "title": "Compensacion de Festivos",
+    "items": [
+      {
+        "id": "comp_festivo_info_general",
+        "title": "Compensacion de Festivos",
+        "summary": "Informacion general",
+        "content_blocks": [
+          { "type": "heading", "text": "Compensacion de Festivos", "style": { "size": 22, "color": "#FFFFFF", "weight": "bold" } },
+          { "type": "paragraph", "text": "Texto de prueba para comp_festivo_info_general.", "style": { "size": 16, "color": "#E7E0F2" } }
+        ]
+      }
+    ]
+  }
+}
