@@ -1,0 +1,65 @@
+{
+  "schema_version": 2,
+  "content_version": "2026.04.13.01",
+  "updated_at_utc": "2026-04-13T11:00:00Z",
+  "default_lang": "es",
+  "theme_defaults": {
+    "font_family": "default",
+    "font_size": 16,
+    "line_spacing": 1.25,
+    "text_color": "#E7E0F2",
+    "title_color": "#FFFFFF",
+    "accent_color": "#C174E8",
+    "muted_color": "#B9AFCB"
+  },
+  "sections": {
+    "permisos_licencias": {
+      "title": "Permisos y Licencias",
+      "items": [
+        {
+          "id": "permiso_matrimonio",
+          "title": "Matrimonio o Pareja de Hecho",
+          "summary": "Permiso por Matrimonio o Pareja de Hecho",
+          "icon": "Matrimonio.png",
+          "content_blocks": [
+            {
+              "type": "heading",
+              "text": "Permiso por Matrimonio o Pareja de Hecho",
+              "style": { "size": 22, "color": "#FFFFFF", "weight": "bold", "align": "left" }
+            },
+            {
+              "type": "paragraph",
+              "text": "Duración del permiso y condiciones generales.",
+              "style": { "size": 16, "color": "#E7E0F2", "line_spacing": 1.3 }
+            },
+            {
+              "type": "bullet_list",
+              "items": [
+                "Inicio del permiso desde la fecha del hecho causante.",
+                "Requiere acreditación documental.",
+                "Aplican excepciones por convenio."
+              ],
+              "style": { "size": 15, "color": "#D6CDEA", "bullet_color": "#C174E8" }
+            },
+            {
+              "type": "note",
+              "text": "Consulta siempre la última circular interna.",
+              "style": { "size": 14, "color": "#B9AFCB", "italic": true }
+            },
+            {
+              "type": "divider",
+              "style": { "color": "#5C4A73", "thickness": 1, "margin_top": 10, "margin_bottom": 10 }
+            },
+            {
+              "type": "link",
+              "text": "Más información oficial",
+              "url": "https://ejemplo.com/permisos/matrimonio",
+              "style": { "size": 15, "color": "#C174E8", "underline": true }
+            }
+          ],
+          "updated_at_utc": "2026-04-13T11:00:00Z"
+        }
+      ]
+    }
+  }
+}
